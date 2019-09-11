@@ -21,7 +21,7 @@ What is the best data structure to be used in this situation. Motivate!
 
 ### Database<br>
 The database will look like this:
-´´´xml
+```xml
 <products>
 	<barebellsProteinBar>
 		<fett>14.4</fett>
@@ -31,6 +31,7 @@ The database will look like this:
 		<fiber>7.9</fiber>
 	</barebellsProteinBar>
 </products>
+```
 
 
 
