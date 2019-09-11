@@ -4,9 +4,9 @@ You will have the protein bars information represented in XML file.
 
 
 ### Task<br>
-Write Java code with the following functionality(Text Interface Program as the IP Project):
-   Extract the information into a data structure of ur choice.
-   After that give the user the ability to choose from  
+Write Java code with the following functionality(Text Interface Program as the IP Project):<br>
+   Extract the information into a data structure of ur choice.<br>
+   After that give the user the ability to choose from:  <br>
    <ul>
      <li> Show all the bars in a good way of ur choice.</li>
         <li> Sort based on highest Protein ( Ex: 1- 36g , 2- 30g ,3- 10g). </li>
@@ -16,9 +16,8 @@ Write Java code with the following functionality(Text Interface Program as the I
 </ul>
   
 ### Open question<br>
-Imagine that you have a very large database. How do you think that the memory will behave with the database if u save it in a data structure ? Are there any problems? If yes, then how to fix it. 
-What is the time complexity of ur sorting algorithm? Can it be improved?
-What is the best data structure to be used in this situation. Motivate!
+Imagine that you have a very large database. How do you think that the memory will behave with the database if u save it in a data structure ? Are there any problems? If yes, then how to fix it.<br>
+What is the best data structure to be used in this situation. Motivate!<br>
 
 
 ### Database<br>
