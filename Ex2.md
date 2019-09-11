@@ -7,12 +7,13 @@ You will have the protein bars information represented in XML file.
 Write Java code with the following functionality(Text Interface Program as the IP Project):
    Extract the information into a data structure of ur choice.
    After that give the user the ability to choose from  
-           -  Show all the bars in a good way of ur choice
-           -  Sort based on highest Protein ( Ex: 1- 36g , 2- 30g ,3- 10g)
-           -  Sort based on highest Fett
-           -  Filter bars which has less than “some number from the user” fiber and sort them from    highest to lowest.
-           -  find all protein bars with more than X protein reviewed by Y (X and Y should be entered from the user).
-
+   <ul>
+     <li> Show all the bars in a good way of ur choice.</li>
+        <li> Sort based on highest Protein ( Ex: 1- 36g , 2- 30g ,3- 10g). </li>
+          <li>Sort based on highest Fett. </li>
+          <li> Filter bars which has less than “some number from the user” fiber and sort them from highest to lowest.</li>
+           <li>find all protein bars with more than X protein reviewed by Y (X and Y should be entered from the user).</li>
+</ul>
   
 ### Open question<br>
 Imagine that you have a very large database. How do you think that the memory will behave with the database if u save it in a data structure ? Are there any problems? If yes, then how to fix it. 
