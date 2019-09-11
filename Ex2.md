@@ -24,19 +24,34 @@ What is the best data structure to be used in this situation. Motivate!<br>
 The database will look like this:
 ```xml
 <products>
-    <barebellsProteinBar id="12">
-		<fett>14.4</fett>
-		<energi>1510</energi>
-		<kolhydrat>25.4</kolhydrat>
-		<protein>36</protein>
-		<fiber>7.9</fiber>
+    	<ILSAHBAR  SN="VyfdmYr">
+		<fett>27.19</fett>
+		<energy>1288.07</energy>
+		<kolhydrat>25.96</kolhydrat>
+		<protein>39.49</protein>
+		<fiber>44.04</fiber>
 		<review>
-		    <reviewer personID="123">
-	        	 <date>2017-09-10</date>
-			 <score>4</score>
-		    </reviewer>
+			<reviewer personID="PJ8">
+				<date>2014-02-11</date>
+				<score>4</score>
+			</reviewer>
 		</review>
-    </barebellsProteinBar>	    
+	</ILSAHBAR>
+
+
+	<OHRITBAR  SN="pQEk83O">
+		<fett>6.14</fett>
+		<energy>2426.02</energy>
+		<kolhydrat>1.4</kolhydrat>
+		<protein>23.45</protein>
+		<fiber>17.21</fiber>
+		<review>
+			<reviewer personID="k6Y">
+				<date>2000-10-09</date>
+				<score>5</score>
+			</reviewer>
+		</review>
+	</OHRITBAR>   
 </products>
 ```
 
