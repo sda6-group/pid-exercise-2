@@ -21,6 +21,7 @@ What is the best data structure to be used in this situation. Motivate!
 
 ### Database<br>
 The database will look like this:
+´´´xml
 <products>
 	<barebellsProteinBar>
 		<fett>14.4</fett>
