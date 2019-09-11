@@ -34,31 +34,7 @@ The database will look like this:
 			<reviewer personID="PJ8">
 				<date>2014-02-11</date>
 				<score>4</score>
-			</reviewer><barebellsProteinBar id="12">
-28
-                <fett>14.4</fett>
-29
-                <energi>1510</energi>
-30
-                <kolhydrat>25.4</kolhydrat>
-31
-                <protein>36</protein>
-32
-                <fiber>7.9</fiber>
-33
-                <review>
-34
-                    <reviewer personID="123">
-35
-                         <date>2017-09-10</date>
-36
-                         <score>4</score>
-37
-                    </reviewer>
-38
-                </review>
-39
-    </barebellsProteinBar>       
+			</reviewer>   
 		</review>
 	</ILSAHBAR>
 
