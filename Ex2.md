@@ -9,14 +9,14 @@ Write Java code with the following functionality(Text Interface Program as the I
    After that give the user the ability to choose from:  <br>
    <ul>
      <li> Show all the bars with the names and the reviewing part.</li>
-	<li>```xml  Ex: <ILSAHBAR  SN="VyfdmYr"> <review>
+	```xml  Ex: <ILSAHBAR  SN="VyfdmYr"> <review>
 			<reviewer personID="PJ8">
 				<date>2014-02-11</date>
 				<score>4</score>
 			</reviewer>   
 		</review>
 		```
-		</li>
+
         <li> Sort based on highest Protein ( Ex: 1- 36g , 2- 30g ,3- 10g). </li>
           <li>Sort based on highest Fett. </li>
           <li> Filter bars which has less than “some number from the user” fiber and sort them from highest to lowest.</li>
