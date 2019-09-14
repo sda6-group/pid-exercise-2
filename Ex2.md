@@ -8,28 +8,16 @@ Write Java code with the following functionality(Text Interface Program as the I
    Extract the information into a data structure of ur choice.<br>
    After that give the user the ability to choose from:  <br>
    <ul>
-     <li> Show all the bars with the names and the reviewing part.
-	
-	```xml 
-	    <ILSAHBAR  SN="VyfdmYr">
-	           <review>
-			<reviewer personID="PJ8">
-				<date>2014-02-11</date>
-				<score>4</score>
-			</reviewer>   
-		   </review>
-	     </ILSAHBAR>
-	```
-   </li>
+     <li> Show the name of all bars. </li>
         <li> Sort based on highest Protein ( Ex: 1- 36g , 2- 30g ,3- 10g). </li>
           <li>Sort based on highest Fett. </li>
           <li> Filter bars which has less than “some number from the user” fiber and sort them from highest to lowest.</li>
-           <li>find all protein bars with more than X protein reviewed by Y (X and Y should be entered from the user).</li>
+           <li>Find all protein bars with more than X protein reviewed by Y (X and Y should be entered from the user).</li>
 </ul>
   
 ### Open question<br>
 Imagine that you have a very large database. How do you think that the memory will behave with the database if u save it in a data structure ? Are there any problems? If yes, then how to fix it.<br>
-What is the best data structure to be used in this situation. Motivate!<br>
+What is the best sort algorithm to be used here and what is its time complexity. Motivate!<br>
 
 
 ### Database<br>
