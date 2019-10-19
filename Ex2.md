@@ -3,15 +3,16 @@ Imagine that you have a supply of protein bars and you want to present these bar
 
 
 ### Task<br>
-Write Java code with the following functionality(Text Interface Program as the IP Project):<br>
-   Extract the information into a data structure of ur choice.<br>
-   After that give the user the ability to choose from:  <br>
-   <ul>
-     <li> Show the name of all bars. </li>
-        <li> Sort based on highest Protein ( Ex: 1- 36g , 2- 30g ,3- 10g). </li>
-          <li>Sort based on highest Fett. </li>
-          <li> Filter bars which has less than “some number from the user” fiber and sort them from highest to lowest.</li>
-           <li>Find all protein bars with more than X protein reviewed by Y (X and Y should be entered from the user).</li>
+Write Java code with the following functionalities (text interface program as the IP project):<br>
+Extract the information from the XML file into a data structure of your choice.<br>
+After that give the user the ability to choose from the following options:
+
+<ul>
+    <li>Show the name of all bars.</li>
+    <li>Sort bars  based on highest protein content.</li>
+    <li>Sort bars based on highest fat content.</li>
+	<li>Filter bars which has less than <i>"some number from the user"</i> fiber and sort them from highest to lowest.</li>
+    <li>Find all protein bars with more than X protein reviewed by Y (X and Y should be entered from the user).</li>
 </ul>
   
 ### Open question<br>
