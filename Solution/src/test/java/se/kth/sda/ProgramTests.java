@@ -1,7 +1,5 @@
 package se.kth.sda;
 
-import main.Product;
-import main.Program;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
