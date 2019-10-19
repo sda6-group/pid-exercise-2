@@ -1,4 +1,4 @@
-package main;
+package se.kth.sda;
 import java.util.ArrayList;
 import java.util.List;
 

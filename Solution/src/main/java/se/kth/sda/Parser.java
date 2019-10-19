@@ -1,4 +1,4 @@
-package main;
+package se.kth.sda;
 import javax.print.DocFlavor;
 import javax.xml.stream.XMLEventReader;
 import javax.xml.stream.XMLInputFactory;

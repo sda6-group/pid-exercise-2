@@ -1,4 +1,4 @@
-package test;
+package se.kth.sda;
 
 import main.Product;
 import org.junit.Assert;

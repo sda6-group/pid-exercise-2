@@ -1,4 +1,4 @@
-package main;
+package se.kth.sda;
 
 public class Item {
     private String date;

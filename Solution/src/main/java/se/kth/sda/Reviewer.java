@@ -1,4 +1,4 @@
-package main;
+package se.kth.sda;
 import javax.xml.stream.events.Attribute;
 
 public class Reviewer {
