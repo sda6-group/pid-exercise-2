@@ -1,7 +1,7 @@
 # gradle
 build/
 .gradle
-
+gradle/
 #Intellij
 .idea/
 *iml
