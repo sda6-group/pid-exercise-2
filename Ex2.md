@@ -1,6 +1,5 @@
 ### Description<br>
-Imagine that you have many types of protein bars and you are required to take this bars and make it easier for people to find their specific goals. Some of them are maybe interested to eat as much protein (Bodybuilder players I guess) as they can and some of them are interested about eating kolhydrat and so on.
-You will have the protein bars information represented in XML file.
+Imagine that you have many types of protein bars and you are required to present these bars to make it easier for people to reach their nutritional goals. Some of them might be interested in eating as much protein as they can (bodybuilders, I guess) and some of them might be interested in eating carbohydrates as well and so on. At your disposal you have the information about the protein bars represented in an XML file [`bars.xml`](bars.xml).
 
 
 ### Task<br>
