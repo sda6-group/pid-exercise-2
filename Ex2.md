@@ -16,12 +16,12 @@ After that give the user the ability to choose from the following options:
 </ul>
   
 ### Open question<br>
-Imagine that you have a very large database. How do you think that the memory will behave with the database if u save it in a data structure ? Are there any problems? If yes, then how to fix it.<br>
+Imagine that you have a very large database, think millions of protein bars. How do you think that the memory will behave with the database if you save it in a data structure ? Are there any problems? If yes, then how do we fix it?<br>
 What is the best sort algorithm to be used here and what is its time complexity. Motivate!<br>
 
 
-### Database<br>
-The database will look like this:
+### XML file<br>
+The XML file structure looks similar to this:
 ```xml
 <products>
     	<ILSAHBAR  SN="VyfdmYr">
