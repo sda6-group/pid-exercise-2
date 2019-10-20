@@ -24,7 +24,7 @@ What is the best sort algorithm to be used here and what is its time complexity.
 The XML file structure looks similar to this:
 ```xml
 <products>
-    	<ILSAHBAR  SN="VyfdmYr">
+    	<bar SN="VyfdmYr">
 		<fett>27.19</fett>
 		<energy>1288.07</energy>
 		<kolhydrat>25.96</kolhydrat>
@@ -36,10 +36,10 @@ The XML file structure looks similar to this:
 				<score>4</score>
 			</reviewer>   
 		</review>
-	</ILSAHBAR>
+	</bar>
 
 
-	<OHRITBAR  SN="pQEk83O">
+	<bar SN="pQEk83O">
 		<fett>6.14</fett>
 		<energy>2426.02</energy>
 		<kolhydrat>1.4</kolhydrat>
@@ -55,7 +55,7 @@ The XML file structure looks similar to this:
 				<score>5</score>
 			</reviewer>
 		</review>
-	</OHRITBAR>   
+	</bar>   
 </products>
 ```
 
