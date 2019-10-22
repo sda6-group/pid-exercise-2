@@ -7,12 +7,13 @@ import org.junit.Test;
 import java.util.List;
 
 public class ProgramTests {
-    Program program = null;
+    Manager manager = null;
     List<Product> fettList = null;
 //    List<Product>
     @Before
     public void setUp() {
-        program = new Program("resources/products.xml");
+        manager = new Manager("resources/products.xml");
+        fettList = manager.getListOfProducts();
     }
 
     @Test

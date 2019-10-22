@@ -49,7 +49,7 @@ public class View {
     }
 
     public void enterReviewer() {
-        System.out.println("Enter review name");
+        System.out.println("Enter reviewer id");
     }
 
     public void enterProtein() {
