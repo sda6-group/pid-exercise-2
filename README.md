@@ -1,3 +1,5 @@
+# Programming in Depth - Exercise 2 - XML
+
 ### Description<br>
 Imagine that you have a supply of protein bars and you want to present these bars to potential customers to make it easier for them to reach their nutritional goals. Some of them might be interested in eating as much protein as they can (bodybuilders, I guess) and some of them might be interested in eating carbohydrates as well and so on. Your job is to make an application that will assist the customers in choosing the right product. At your disposal you have the information about the protein bars represented in an XML file [`bars.xml`](bars.xml).
 
