@@ -13,7 +13,6 @@ public class ProgramTests {
     @Before
     public void setUp() {
         program = new Program("resources/products.xml");
-        fettList = program.sortByFett();
     }
 
     @Test

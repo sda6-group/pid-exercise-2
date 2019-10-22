@@ -7,8 +7,8 @@ public class View {
     private Scanner scan;
     private int welcomeMessage;
     public View() {
-       scan = new Scanner(System.in);
-       welcomeMessage = 0;
+        scan = new Scanner(System.in);
+        welcomeMessage = 0;
     }
 
     public void printMainMenu() {
@@ -30,17 +30,22 @@ public class View {
     }
 
     public void showAllBars(List<Product> list) {
-       list.stream().forEach(System.out::println);
+        list.stream().forEach(System.out::println);
     }
 
     public String getUserInput() {
-       return scan.nextLine();
+        return scan.nextLine();
     }
 
     public void showAllSubMenu() {
         System.out.println("1) Sort by highest protein content");
         System.out.println("2) Sort by highest fat content");
-        System.out.println("3) Show all");
+        System.out.println("3) Show all name");
+        System.out.println("4) Show All");
+    }
+
+    public void showName(List<String> list) {
+        list.stream().forEach(System.out::println);
     }
 
     public void enterReviewer() {
@@ -52,7 +57,7 @@ public class View {
     }
 
     public void enterFiber() {
-      System.out.println("Enter fiber number");
+        System.out.println("Enter fiber number");
     }
 
     public void errorMessage() {

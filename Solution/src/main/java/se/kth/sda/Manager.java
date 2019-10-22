@@ -1,8 +1,5 @@
 package se.kth.sda;
-import javax.xml.parsers.ParserConfigurationException;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 import java.util.stream.Collectors;
 
 public class Manager {
@@ -48,7 +45,7 @@ public class Manager {
      * @return A list of String.
      */
     public List<String> getProductNames() {
-        return listOfProducts.stream().map(Product::getSn).collect(Collectors.toList());
+        return listOfProducts.stream().map(Product::getName).collect(Collectors.toList());
     }
 
     /**
@@ -56,7 +53,7 @@ public class Manager {
      * @return A list of Products which is sorted by protein
      */
     public List<Product> sortByProtein() {
-        return listOfProducts.stream().sorted(Comparator.comparing(Product::getProtein)).collect(Collectors.toList());
+        return listOfProducts.stream().sorted(Comparator.comparing(Product::getDProtein)).collect(Collectors.toList());
     }
 
     /**
@@ -64,7 +61,7 @@ public class Manager {
      * @return A list of Products which is sorted by fett.
      */
     public List<Product> sortByFett() {
-        return listOfProducts.stream().sorted(Comparator.comparing(Product::getFett)).collect(Collectors.toList());
+        return listOfProducts.stream().sorted(Comparator.comparing(Product::getDFett)).collect(Collectors.toList());
     }
 
     /**
@@ -105,9 +102,5 @@ public class Manager {
             }
         }
         return productList;
-    }
-
-    public List<String> getNames() {
-        return listOfProducts.stream().map(Product::getName).collect(Collectors.toList());
     }
 }

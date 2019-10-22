@@ -1,44 +1,24 @@
 package se.kth.sda;
+import javax.xml.parsers.ParserConfigurationException;
 import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        final String path = "resources/products.xml";
+        final String path = "resources/bars.xml";
         Program program = new Program(path);
-        List<Product> products = program.getListOfProducts();
+//        Manager m = new Manager(path);
 
-//        List<String> names = program.getProductNames();
-//        for (String s :
-//                names) {
-//            System.out.println(s);
-//        }
-//
-//        System.out.println("Sorted by Protein");
-//        List<Product> sortedByProtein = program.sortByProtein();
-//        for (Product p :
-//                sortedByProtein) {
-//            System.out.println(p.getProtein());
-//        }
-//
-//        System.out.println("Sorted by Fett");
-//        List<Product> sortedByFett = program.sortByFett();
-//        for (Product p :
-//                sortedByFett) {
-//            System.out.println(p.getFett());
-//        }
-//        System.out.println("Filter by score");
-//        List<Product> filteredByScore = program.filterByScore(4);
-//        for (Product p :
-//                filteredByScore) {
+//        List<Product> list = m.getListOfProducts();
+
+//        list.stream().forEach(product -> product.getListOfReviewer().stream().forEach(System.out::println));
+
+//        for (Product p : list) {
 //            System.out.println(p);
+//            for (Reviewer r:
+//                 p.getListOfReviewer()) {
+//                System.out.println(r);
+//            }
 //        }
-//
-//        System.out.println("Filter by reviewer");
-//        List<Product> filtedByReviewer = program.getListOfProductsReviewedByUser("k6Y", 30);
-//        for (Product p :
-//             filtedByReviewer) {
-//            System.out.println(p.getSn());
-//        }
-        program.printReviewer();
+        program.run();
     }
 }
